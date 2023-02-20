@@ -21,7 +21,7 @@ echo "order id: {$response->order->order_id}".PHP_EOL;
 echo "customer name: {$response->order->firstname} {$response->order->lastname}".PHP_EOL;
 echo "customer email: {$response->order->email}".PHP_EOL;
 echo "order status: {$response->order->order_status}".PHP_EOL;
-echo "order price: {$response->order->total}{$response->order->currency_code}".PHP_EOL;
+echo "order price: {$response->order->total} {$response->order->currency_code}".PHP_EOL;
 echo "payment method: {$response->order->payment_method}".PHP_EOL;
 echo "shipping address:{$response->order->shipping_country}, {$response->order->shipping_zone}, {$response->order->shipping_address_1}, {$response->order->shipping_address_2}, {$response->order->shipping_postcode}".PHP_EOL;
 

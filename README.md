@@ -15,7 +15,7 @@
 ## Instructions
 * Clone this repository.
 * Install the required packages using the command:<br><code>composer install</code>
-* Rename <code>config-dist.php</code> to <code>config.php</code> in <code>upload</code> directory an <code>upload/admin</code> directory.
+* Rename <code>config-dist.php</code> to <code>config.php</code> in <code>upload</code> directory and <code>upload/admin</code> directory.
 * Start the local development server by using the command in <code>upload</code> directory:<br><code>php -S localhost:8000</code>
 * Install OpenCart (http://localhost:8000/)
 * As the admin generate an API key in System -> Users -> API.
